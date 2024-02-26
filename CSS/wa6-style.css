@@ -1,0 +1,95 @@
+body{
+    background-image: url(../img/wa6-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+#gradient{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(63, 63, 63, 0.3);
+    position: absolute;
+}
+
+#team{
+    background-color: rgb(69, 158, 210);
+    border: 2px solid whitesmoke;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: black;
+    position: absolute;
+    left: 65%;
+    top: 35%;
+}
+
+.republic{
+    background-color: rgb(98, 95, 95);
+    border: 2px solid whitesmoke;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 65%;
+    top: 46%;
+}
+
+.republic:hover{
+    background-color: rgb(214, 214, 214);
+    color: rgb(223, 221, 105);
+}
+
+.CIS{
+    background-color: rgb(98, 95, 95);
+    border: 2px solid whitesmoke;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 65%;
+    top: 57%;
+}
+
+.CIS:hover{
+    background-color: rgb(214, 214, 214);
+    color: rgb(223, 221, 105);
+}
+
+.auto{
+    background-color: rgb(98, 95, 95);
+    border: 2px solid whitesmoke;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 65%;
+    top: 68%;
+}
+
+.auto:hover{
+    background-color: rgb(214, 214, 214);
+    color: rgb(223, 221, 105);
+}
