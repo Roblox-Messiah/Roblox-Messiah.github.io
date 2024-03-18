@@ -113,11 +113,28 @@ img {
 }
 
 
-.eventName:hover {
+/*.eventName:hover {
     color: white;
+    font-style: italic;
+    text-decoration: underline;
+}*/
+
+button:hover {
+    cursor: pointer;
 }
 
+button {
+    border-radius: 15px;
+    margin-bottom: 5px;
+    width: 175px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px;
+}
 
+.event1 {
+    
+}
 
 @media screen and (max-width: 400px) {
     
