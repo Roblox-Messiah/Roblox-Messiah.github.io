@@ -28,12 +28,12 @@ nav a{
 }
 
 img {
-    width: 50px;
-    height: 50px;
-    
+    width: 70px;
+    height: 70px;
+
+    margin-bottom: 20px;
     position: relative;
-    left: 60%;
-    bottom: 25%;
+    
     
 }
 
@@ -46,6 +46,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
 
     font-family: 'Economica', sans-serif;
 }
@@ -72,6 +73,8 @@ img {
     padding-right: 10px;
     width: 90%;
     height: 210px;
+    position: relative;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
 }
 
 .eventName {
@@ -84,6 +87,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     width: 175px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.4);
 
     font-size: 23px;
     font-family: 'Economica', sans-serif;
@@ -96,7 +100,7 @@ img {
     font-size: 17px;
 }
 
-.tickets {
+/*.tickets {
     background-color: rgb(148, 41, 0);
     border-radius: 20px;
     width: 200px;
@@ -110,14 +114,19 @@ img {
     font-family: 'Inconsolata', sans-serif;
     color: white;
     
-}
+}*/
 
 
-/*.eventName:hover {
+.event1:hover {
     color: white;
     font-style: italic;
     text-decoration: underline;
-}*/
+    transform: scale(105%);
+}
+
+.eventName:hover {
+    transform: scale(105%);
+}
 
 button:hover {
     cursor: pointer;
@@ -128,12 +137,40 @@ button {
     margin-bottom: 5px;
     width: 175px;
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(148, 41, 0, 1);
     border: 0px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.6);
 }
 
 .event1 {
-    
+    background-color: rgb(148, 41, 0, 0.0);
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: 'Economica', sans-serif;
+}
+
+.tickets {
+    left: 63%;
+    bottom: 70%;
+    position: relative;
+
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 23px;
+}
+
+.tickets:hover {
+    color: white;
+    transform: scale(105%);
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgb(201, 34, 0);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 400px) {
