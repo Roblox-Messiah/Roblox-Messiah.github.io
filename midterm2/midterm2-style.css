@@ -30,6 +30,7 @@ nav a{
 img {
     width: 70px;
     height: 70px;
+    border-radius: 11%;
 
     margin-bottom: 20px;
     position: relative;
@@ -71,7 +72,7 @@ img {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 90%;
+    width: 70%;
     height: 210px;
     position: relative;
     box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
@@ -100,21 +101,20 @@ img {
     font-size: 17px;
 }
 
-/*.tickets {
-    background-color: rgb(148, 41, 0);
-    border-radius: 20px;
-    width: 200px;
-    height: 75px;
-   
+.image1 {
+    border: 2px solid rgb(128, 128, 128);
+    width: 160px;
+    height: 160px;
+    left: 46%;
+    bottom: 65%;
+    border-radius: 12%;
     position: relative;
-    left: 80%;
-    bottom: 70%;
-    
+}
 
-    font-family: 'Inconsolata', sans-serif;
-    color: white;
-    
-}*/
+.img1 {
+    width: 160px;
+    height: 160px;
+}
 
 
 .event1:hover {
@@ -150,8 +150,8 @@ button {
 }
 
 .tickets {
-    left: 63%;
-    bottom: 70%;
+    left: 76%;
+    bottom: 135%;
     position: relative;
 
     font-family: 'Inconsolata', sans-serif;
