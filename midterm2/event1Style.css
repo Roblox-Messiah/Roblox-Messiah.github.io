@@ -119,3 +119,17 @@ nav a:hover {
 .backBox:hover {
     transform: scale(105%);
 }
+
+.tickets:hover {
+    color: white;
+    transform: scale(105%);
+}
+
+.tickets {
+    left: 76%;
+    bottom: 148%;
+    position: relative;
+
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 23px;
+}
