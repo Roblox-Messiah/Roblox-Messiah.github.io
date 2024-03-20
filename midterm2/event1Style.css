@@ -33,100 +33,7 @@ img {
     border-radius: 2%;
 
     margin-bottom: 20px;
-    position: relative;
-    
-    
-}
-
-.introTitle {
-    background-color: rgb(232, 151, 132);
-    border-radius: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
-
-    font-family: 'Economica', sans-serif;
-}
-
-.intro {
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    font-family: 'Economica', sans-serif;
-}
-
-.event {
-    background-color: rgb(232, 151, 131);
-    border-radius: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 70%;
-    height: 210px;
-    position: relative;
-    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
-}
-
-.eventName {
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 20px;
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 175px;
-    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.4);
-
-    font-size: 23px;
-    font-family: 'Economica', sans-serif;
-}
-
-.eventTime {
-    margin-left: 10px;
-
-    font-family: 'Economica', sans-serif;
-    font-size: 17px;
-}
-
-.image1 {
-    border: 3px solid rgb(128, 128, 128);
-    width: 160px;
-    height: 160px;
-    left: 40%;
-    bottom: 65%;
-    border-radius: 12%;
-    position: relative;
-}
-
-.img1 {
-    width: 160px;
-    height: 160px;
-    border-radius: 10.5%;
-}
-
-
-.event1:hover {
-    color: white;
-    font-style: italic;
-    text-decoration: underline;
-    transform: scale(105%);
-}
-
-.eventName:hover {
-    transform: scale(105%);
+    position: relative;   
 }
 
 button:hover {
@@ -143,27 +50,6 @@ button {
     box-shadow: 0 4px 6px rgb(0, 0, 0, 0.6);
 }
 
-.event1 {
-    background-color: rgb(148, 41, 0, 0.0);
-    box-shadow: 0 0 0 rgb(0, 0, 0);
-    font-size: 23px;
-    font-family: 'Economica', sans-serif;
-}
-
-.tickets {
-    left: 76%;
-    bottom: 148%;
-    position: relative;
-
-    font-family: 'Inconsolata', sans-serif;
-    font-size: 23px;
-}
-
-.tickets:hover {
-    color: white;
-    transform: scale(105%);
-}
-
 .logo {
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 rgb(0, 0, 0);
@@ -174,6 +60,62 @@ nav a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 400px) {
-    
+.infoBox {
+    background-color: rgb(232, 151, 132);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.4);
+
+    font-family: 'Economica', sans-serif;
+}
+
+.info {
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Economica', sans-serif;
+}
+
+.backButton {
+    background-color: rgb(148, 41, 0, 0.0);
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: 'Economica', sans-serif;
+}
+
+.backBox {
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 175px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.4);
+
+    font-size: 23px;
+    font-family: 'Economica', sans-serif;
+}
+
+.backButton:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+    transform: scale(105%);
+}
+
+.backBox:hover {
+    transform: scale(105%);
 }
