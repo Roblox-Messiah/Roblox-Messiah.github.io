@@ -125,7 +125,18 @@ img {
     transform: scale(105%);
 }
 
+.event2:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+    transform: scale(105%);
+}
+
 .eventName:hover {
+    transform: scale(105%);
+}
+
+.eventName2:hover {
     transform: scale(105%);
 }
 
@@ -172,6 +183,30 @@ button {
 nav a:hover {
     color: rgb(201, 34, 0);
     text-decoration: underline;
+}
+
+.event2 {
+    background-color: rgb(148, 41, 0, 0.0);
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: 'Economica', sans-serif;
+}
+
+.eventName2 {
+    height: 85px;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 175px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.4);
+
+    font-size: 23px;
+    font-family: 'Economica', sans-serif;
 }
 
 @media screen and (max-width: 400px) {
