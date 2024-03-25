@@ -2,10 +2,10 @@ const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
+const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they decided to publicaly publish known forms of curruption in the government, until they :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was an uncomfortably hot day."
 const insertX = ["Sewerin Gilbo", "StoveGobCooks", "Peter Fortnite Griffin"];
 const insertY = ["Installation 04", "Arakis", "Risky Reels"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "was immediately dragged to the 9th circle of hell by demons personally apointed by Satan himself"];
+const insertZ = ["were thrown into a blacked out van by men in suits, never to be seen or heard from again", "succumbed to an 'unknown illness' and perished", "were immediately dragged to the 9th circle of hell by demons personally apointed by Satan himself"];
 
 function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
