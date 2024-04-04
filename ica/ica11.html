@@ -1,21 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function start</title>
+    <style>
+      .msgBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 242px;
+        background: #eee;
+      }
+
+      .msgBox p {
+        line-height: 1.5;
+        padding: 10px 20px;
+        color: #333;
+        padding-left: 82px;
+        background-position: 25px center;
+        background-repeat: no-repeat;
+      }
+
+      .msgBox button {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.1rem;
+        color: #aaa;
+      }
+
+    </style>
+  </head>
+  <body>
+    <button>Display message box</button>
 
     <script>
-        let x = 1;
-        if (x == 1) {
-            console.log("x is 1!")
-        }
-        else {
-            console.log("x isnt 1!")
-        }
+      function displayMessage(msgText, msgType){
+        const body = document.body;
+
+        const panel = document.createElement("div");
+        panel.setAttribute("class", "msgBox");
+        body.appendChild(panel);
+
+        const msg = document.createElement("p");
+        msg.textContent = msgText;
+        panel.appendChild(msg);
+
+        const closeBtn = document.createElement("button");
+        closeBtn.textContent = "x";
+        panel.appendChild(closeBtn);
+
+        closeBtn.addEventListener("click", () =>
+        panel.parentNode.removeChild(panel),
+        );
+        if (msgType === "warning") {
+            msg.style.backgroundImage = "url(../img/peter-alert.jpg)";
+            panel.style.backgroundColor = "orange";
+            } else if (msgType === "chat") {
+            msg.style.backgroundImage = "url(../img/damn-bro-thats-crazy.jpg)";
+            panel.style.backgroundColor = "green";
+            } else {
+            msg.style.paddingLeft = "20px";
+            }
+      }
+
+      // const btn = document.querySelector("button").addEventListener("click", displayMessage);
+      const btn = document.querySelector("button");
+
+      function userInput() {
+        let text = prompt("Enter a message!");
+        return text;
+      }
+
+      function warningInput() {
+        let text = prompt("Is this a warning, or a chat?");
+        return text;
+      }
+
+      btn.addEventListener("click", () => displayMessage(userInput(), warningInput()),
+      );
     </script>
-</body>
+  </body>
 </html>
